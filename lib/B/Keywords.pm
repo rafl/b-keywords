@@ -398,7 +398,7 @@ B::Keywords - Lists of reserved barewords and symbol names
 
 =head1 SYNOPSIS
 
-  use B::Keywords qw( @Symbols Barewords );
+  use B::Keywords qw( @Symbols @Barewords );
   print join "\n", @Symbols,
                    @Barewords;
 
