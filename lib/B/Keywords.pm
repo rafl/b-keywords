@@ -109,6 +109,7 @@ use vars '@Filehandles';
 
 use vars '@Functions';
 @Functions = qw(
+    __SUB__
     AUTOLOAD
     BEGIN
     DESTROY
@@ -152,6 +153,7 @@ use vars '@Functions';
     endservent
     eof
     eval
+    evalbytes
     exec
     exists
     exit
